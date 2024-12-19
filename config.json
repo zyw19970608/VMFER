@@ -1,0 +1,11 @@
+{
+    "experiment_num": 10,
+    "run_file": "main.py",
+    "refill_time": ["10"],
+    "PER": [null, "rank"],
+    "environments": ["Ant-v2", "Hopper-v2", "Walker2d-v2"],
+    "algorithms": ["TD3"],
+    "vmf_flags": ["clip_vmfER_rank", "clip_vmfER", "default_autoupbound"],
+    "seeds": ["123456", "12345", "1234", "123", "12"],
+    "pgids": [0]
+}
